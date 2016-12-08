@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" tag="101" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xkp-jN-KIb">
-                                <rect key="frame" x="20" y="409" width="80" height="30"/>
+                                <rect key="frame" x="20" y="488" width="80" height="30"/>
                                 <state key="normal" title="Start GCD">
                                     <color key="titleShadowColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -27,7 +27,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="101" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Ri-7Q-b5h">
-                                <rect key="frame" x="108" y="409" width="67" height="30"/>
+                                <rect key="frame" x="108" y="488" width="67" height="30"/>
                                 <state key="normal" title="Start OP">
                                     <color key="titleShadowColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -36,7 +36,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="101" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Tc-HB-Tms">
-                                <rect key="frame" x="180" y="409" width="104" height="30"/>
+                                <rect key="frame" x="180" y="488" width="104" height="30"/>
                                 <state key="normal" title="Start Thread">
                                     <color key="titleShadowColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -44,15 +44,8 @@
                                     <action selector="startThread:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7ch-dQ-xEp"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N57-8Y-hBm">
-                                <rect key="frame" x="69" y="522" width="258" height="30"/>
-                                <state key="normal" title="Interactive Increase"/>
-                                <connections>
-                                    <action selector="userButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oW0-Jk-iey"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" tag="100" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WOx-I7-t9M">
-                                <rect key="frame" x="69" y="468" width="258" height="30"/>
+                                <rect key="frame" x="69" y="547" width="258" height="30"/>
                                 <state key="normal" title="Stop Animation">
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -62,7 +55,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="101" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v3w-Jr-axN">
-                                <rect key="frame" x="290" y="409" width="104" height="30"/>
+                                <rect key="frame" x="290" y="488" width="104" height="30"/>
                                 <state key="normal" title="Start Timer">
                                     <color key="titleShadowColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -74,6 +67,11 @@
                                 <rect key="frame" x="78" y="120" width="240" height="225"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Some text that can be type while animate" borderStyle="roundedRect" placeholder="Type something" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hR0-nZ-4aT">
+                                <rect key="frame" x="28" y="41" width="358" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
